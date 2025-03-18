@@ -1,0 +1,103 @@
+# ===============================
+# SYSTEM / OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.swp
+*.swo
+
+# ===============================
+# METADATA / EXIF / LOG FILES
+# ===============================
+*.log
+*.lock
+*.exif
+*.metadata
+*.history
+*.backup
+
+# ===============================
+# ENVIRONMENT / CONFIG FILES (Sensitive Data)
+# ===============================
+.env
+*.env.local
+*.env.production
+config.json
+credentials.json
+secrets.json
+id_rsa*
+*.pem
+*.crt
+*.key
+
+# ===============================
+# PROGRAMMING-SPECIFIC FILES
+# ===============================
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# C++
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+*.a
+*.so
+
+# LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ===============================
+# IDE/EDITOR-SPECIFIC FILES
+# ===============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+/.idea/
+
+# ===============================
+# BUILD / DEPENDENCIES
+# ===============================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# ===============================
+# BACKUPS / TEMP FILES
+# ===============================
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+
