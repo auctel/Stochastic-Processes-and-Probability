@@ -14,9 +14,7 @@ The simulation follows these steps:
 - Start with a given number of sampled lineages.
 - At each step, two lineages coalesce at a rate determined by the formula:
   
-  \[
-  \text{rate} = \frac{k(k-1)}{2N}
-  \]
+rate = k(k-1) / (2N)
   
   where \( k \) is the number of current lineages, and \( N \) is the population size.
 - The time until the next coalescence event is drawn from an exponential distribution with the inverse of the coalescence rate as the mean.
