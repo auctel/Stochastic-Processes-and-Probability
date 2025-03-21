@@ -2,7 +2,7 @@
 
 This repository contains projects, simulations, and snippets of code I have on myriad topics pertaining to stochastic processes. 
 
-coal-sim - Coalescence Theory Simulations 
+- **coal-sim** - Coalescence Theory Simulations 
 
 ## More to come later: 
 
